@@ -4,13 +4,13 @@ export const createCorn = () => {
     let seedCorn = [
         {
             type: "Corn",
-            height: "180",
-            output: "6"
+            height: 180,
+            output: 6
         },
         {
             type: "Corn",
-            height: "180",
-            output: "6"
+            height: 180,
+            output: 6
         }
     ]
     return seedCorn
