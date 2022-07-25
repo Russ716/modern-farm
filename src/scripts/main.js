@@ -25,8 +25,10 @@ let fieldPlants = usePlants()
 console.log(fieldPlants);
 let plantsToMarket = harvestPlants(fieldPlants)
 let plantsForSale = []
+
 for (const plant of plantsToMarket) {
-    plantsForSale.push(plant.type)
+    plantsForSale.push(plant.type + " ")
 }
 document.querySelector(".harvester").innerHTML = plantsForSale;
+
 //!Now just play with display: flex and make it look right. 
