@@ -12,7 +12,6 @@ export const harvestPlants = (plantsArray) => {
                 seedObjectsArray.push(plant)
             }
         }
-
     }
     return seedObjectsArray //^The function will return an array of seed objects.
 }
